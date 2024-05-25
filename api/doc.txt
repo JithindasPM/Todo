@@ -1,0 +1,6 @@
+def get_queryset(self):
+        return Taskmodel.objects.filter(user=self.request.user)
+    
+    def perform_destroy(self, instance):
+        instance=Taskmodel.objects.get(id=id)
+        return super().perform_destroy(instance)

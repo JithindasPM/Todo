@@ -73,7 +73,7 @@
 
 <body>
 
-<!-- navbar  -->
+    <!-- navbar  -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -139,6 +139,8 @@
     <!-- navbar  ends -->
 
 
+    <!-- messages  -->
+
     <div class=" container msg">
         {% if messages %}
         {% for i in messages %}
@@ -150,6 +152,9 @@
         </div>
 
     </div>
+
+    <!-- messages ends -->
+
     <div class="home">
         <form action="" method="post" class="content">
             <h1 style="text-align: center;">T O D O</h1>
@@ -164,7 +169,7 @@
         </form>
     </div>
     <div class="container_fluid details">
-        <table class="table table-striped table-dark">
+        <!-- <table class="table table-striped table-dark">
             <tr>
                 <th><b>TASK NAME</b></th>
                 <th><b>TASK DESCRIPTION</b></th>
@@ -183,7 +188,7 @@
                 {% endif %}
             </tr>
             {% endfor %}
-        </table>
+        </table> -->
     </div>
 </body>
 
